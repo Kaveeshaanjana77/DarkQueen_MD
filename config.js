@@ -10,8 +10,8 @@ global.email = 'sam@secktor.live'
 global.github = 'https://github.com/SamPandey001/Secktor-Md'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94715491788'
-global.devs = '94715491788';
+global.sudo = process.env.SUDO || '94760552994'
+global.devs = '94760552994';
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
@@ -39,7 +39,7 @@ module.exports = {
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
-    HEROKU: process.env.HEROKU ||false,
+    HEROKU: process.env.HEROKU ||true,
     API_KEY: process.env.HEROKU_API_KEY === undefined ? '1abfce1e-1bee-4334-9f6c-f4c1cb1cafab' : process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME === undefined ? 'zeropgg' : process.env.HEROKU_APP_NAME
 },
